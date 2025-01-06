@@ -1,0 +1,40 @@
+Összegzés
+Feladat, a washtag autómosó számára elkészíteni react, openapi, nayax core, woocommerce és yith review plugin felhasználásával a weboldalukat.
+Ezt egy erre a célra létrehozott github repositoryn végezzük el.
+
+Célok a feladat során:
+- Felhasználói adatbázis szinkronizálása.
+  A felhasználók kezelését ki kell találni még, hogy mi végezze. De az email címek alapján azonosítanánk őket és különböztetnénk meg egymástól.
+  Aki hozzáfért a nayax korábbi oldalához, az hozzánk is be tudjopn jelentkezni.
+
+- openapi swagger segítségével kiépíteni a kommunikációt köztünk és a nayax között.
+- a woocommerceben létre van hozva két termékkategória: Mosókártyák és Kártyafeltöltések.
+  - Egy mosókártya megrendelésénét követően mi kézzel hozzuk létre az új fiókot, majd a kártyát a fiókhoz rendeljük. 
+- Kártyafeltöltésnél pedig választhat az email címhez kötött kártyák közül, melyikre akarja a feltöltést.
+
+- Az apiból behívott adatokat szeretném megjeleníteni dinamikus tartalomként.
+
+Summary
+The task is to create a website for the Washtag car wash using React, OpenAPI, Nayax Core, WooCommerce, and the YITH Review plugin. This will be done in a GitHub repository created specifically for this purpose.
+
+  - Synchronize the user database.
+	The management of users still needs to be figured out, but we would identify them based on their email addresses and differentiate them from each other.
+	Anyone who had access to the previous Nayax site should also be able to log in to ours.
+  - Build communication between us and Nayax using OpenAPI Swagger.
+  - In WooCommerce, two product categories have been created: Wash Cards and Card Top-ups.
+  - After ordering a wash card, we will manually create the new account and link the card to the account.
+	•	For card top-ups, users can choose from the cards linked to their email address to select the one they want to top up.
+	•	Display the data fetched from the API as dynamic content.
+
+
+Goals during the task:
+	•	Synchronize the user database.
+The management of users still needs to be figured out, but we would identify them based on their email addresses and differentiate them from each other.
+Anyone who had access to the previous Nayax site should also be able to log in to ours.
+	•	Build communication between us and Nayax using OpenAPI Swagger.
+	•	In WooCommerce, two product categories have been created: Wash Cards and Card Top-ups.
+	•	After ordering a wash card, we will manually create the new account and link the card to the account.
+	•	For card top-ups, users can choose from the cards linked to their email address to select the one they want to top up.
+	•	Display the data fetched from the API as dynamic content.
+
+  
